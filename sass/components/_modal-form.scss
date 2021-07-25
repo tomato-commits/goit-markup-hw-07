@@ -83,10 +83,9 @@
   &:focus,
   &:hover {
     border-color: var(--accent-color);
-
-    &::placeholder {
-      color: rgba(117, 117, 117, 0.5);
-    }
+  }
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
   }
 }
 

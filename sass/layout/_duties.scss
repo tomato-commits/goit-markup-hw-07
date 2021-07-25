@@ -2,7 +2,7 @@
   padding-top: 0;
 }
 
-.duties-title {
+.duties__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -12,23 +12,23 @@
   margin-bottom: 50px;
 }
 
-.duties-list {
+.duties__list {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.duties-item {
+.duties__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.thumb {
+.duties__thumb {
   position: relative;
 }
 
-.thumb-description {
+.duties__thumb-description {
   position: absolute;
   width: 100%;
   left: 0;
