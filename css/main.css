@@ -63,6 +63,16 @@ img {
   padding-bottom: 94px;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headings-color);
+  margin-bottom: 50px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -556,16 +566,6 @@ img {
   padding-top: 0;
 }
 
-.duties__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--headings-color);
-  margin-bottom: 50px;
-}
-
 .duties__list {
   display: flex;
   margin-top: -30px;
@@ -619,16 +619,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--headings-color);
-  margin-bottom: 50px;
-}
-
 .team-section-content {
   padding-top: var(--card-set-gap);
   padding-left: 32px;
@@ -658,17 +648,6 @@ img {
 .clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.clients-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--headings-color);
-  margin-bottom: 50px;
 }
 
 .our-clients-list {
