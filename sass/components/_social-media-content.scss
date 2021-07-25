@@ -24,14 +24,12 @@
   fill: #afb1b8;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-media-link:hover,
-.social-media-link:focus,
-.footer-social-media-link:hover,
-.footer-social-media-link:focus {
-  fill: #ffffff;
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-social-media-image {
@@ -40,4 +38,10 @@
 
 .footer-social-media-link {
   background-color: rgba(255, 255, 255, 0.1);
+
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    background-color: var(--accent-color);
+  }
 }

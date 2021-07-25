@@ -32,23 +32,25 @@
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+
+  &.address {
+    color: #ffffff;
+    margin-bottom: 9px;
+  }
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
 }
 
-.foot-logo {
+.footer-logo {
   display: block;
   margin-bottom: 20px;
 }
 
-.footer-link.address {
-  color: #ffffff;
-  margin-bottom: 9px;
-}
-
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer-link:hover,
-.footer-link:focus {
-  color: #ffffff;
+.footer-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
