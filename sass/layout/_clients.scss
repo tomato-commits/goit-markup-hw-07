@@ -7,8 +7,10 @@
   display: flex;
 }
 
-.our-clients-item:not(:last-child) {
-  margin-right: 30px;
+.our-clients-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .our-clients-link {
